@@ -1,22 +1,23 @@
 server:
   port:
     8082
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
 spring:
   datasource:
     url: jdbc:postgresql://localhost:54321/db-dev
     username: admin
     password: admin
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health,prometheus
-  metrics:
-    export:
-      prometheus:
-        enabled: true
-    distribution:
-      percentiles-histogram:
-        "[http.server.requests]": true
+  boot:
+    admin:
+      context-path: /admin
+      client:
+        url: http://localhost:8082/admin
+  application:
+    name: app

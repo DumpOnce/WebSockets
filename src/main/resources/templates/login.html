@@ -1,19 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="./webjars/bootstrap/5.1.3/webjars-requirejs.js" rel="stylesheet">
     <script src="./webjars/sockjs-client/1.5.1/sockjs.min.js"></script>
     <script src="/webjars/sockjs-client/1.5.1/sockjs.js"></script>
     <script src="./webjars/stomp-websocket/2.3.4/stomp.min.js"></script>
+<!--
     <script src="../static/css/static.js"></script>
+-->
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
     <form>
-        <input id="enter" type="text">
-        <button id = "but" type="button"onclick="goAhead()"></button>
+        <input id="enter" type="number">
+        <button id = "but" type="button" ></button>
     </form>
+<script>
+    var stompClient = null;
+    var notificationCount = 0;
 
+    function func(message){
+    }
+
+
+    //var inputValue = document.getElementById("enter").value;
+    const butt = document.getElementById("but");
+ butt.addEventListener('click',U=>{
+       var socket = new SockJS('/websocket-sockjs-stomp');
+       stompClient = Stomp.over(socket);
+       stompClient.connect({},  frame => {
+           console.log('Connected: ' + frame);
+           stompClient.subscribe('/topic/sending',  message=> {
+               console.log("fixed"+message)
+           });
+           stompClient.send('/app/global',{},JSON.stringify("fergerg"))
+
+           //   stompClient.send("app/global",{},JSON.stringify({name:'Tammie'}))
+
+       }); })
+
+/*
+
+
+        func(inputValue)
+        inputValue = ""*/
+
+
+
+</script>
 </body>
 </html>

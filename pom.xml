@@ -86,6 +86,26 @@
             <artifactId>slf4j-logging</artifactId>
             <version>0.2.3</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-client</artifactId>
+            <version>2.6.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/de.codecentric/spring-boot-admin-server -->
+        <!-- https://mvnrepository.com/artifact/de.codecentric/spring-boot-admin-server -->
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-server</artifactId>
+            <version>2.6.3</version>
+        </dependency>
+
+
 
         <!-- https://mvnrepository.com/artifact/org.slf4j/com.springsource.slf4j.api -->
 
@@ -149,49 +169,38 @@
           <version>2.6.3</version>
       </dependency>
       <!-- https://mvnrepository.com/artifact/de.codecentric/spring-boot-admin-server -->
-      <dependency>
-          <groupId>de.codecentric</groupId>
-          <artifactId>spring-boot-admin-server</artifactId>
-          <version>2.6.3</version>
-      </dependency>
-      <dependency>
-          <groupId>de.codecentric</groupId>
-          <artifactId>spring-boot-admin-server-ui</artifactId>
-          <version>1.5.5</version>
-      </dependency>
-
 
 
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
-      <version>5.3.16</version>
+      <version>5.3.17</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
-      <version>2.6.4</version>
+      <version>2.6.5</version>
     </dependency>
       <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
       <dependency>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-starter-web</artifactId>
-          <version>2.5.12</version>
+          <version>2.6.5</version>
       </dependency>
 
       <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-maven-plugin -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-maven-plugin</artifactId>
-      <version>2.6.4</version>
+      <version>2.6.5</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-tomcat -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-tomcat</artifactId>
-      <version>2.6.4</version>
+      <version>2.6.5</version>
     </dependency>
       <!-- https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.1-api -->
       <dependency>
@@ -212,12 +221,6 @@
       <artifactId>spring-boot-properties-migrator</artifactId>
       <version>2.6.4</version>
     </dependency>
-      <!-- https://mvnrepository.com/artifact/io.micrometer/micrometer-registry-prometheus -->
-      <dependency>
-          <groupId>io.micrometer</groupId>
-          <artifactId>micrometer-registry-prometheus</artifactId>
-          <version>1.8.4</version>
-      </dependency>
 
 
   </dependencies>
@@ -263,6 +266,14 @@
                       </goals>
                   </execution>
               </executions>
+          </plugin>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <configuration>
+                  <source>8</source>
+                  <target>8</target>
+              </configuration>
           </plugin>
       </plugins>
 

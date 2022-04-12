@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="db-dev@localhost">
-  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.32">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.38">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <Grants>1||-9223372036854775808|c|G
-1||10|c|G
-1||10|C|G
-1||10|T|G
-13457||-9223372036854775808|c|G
-13457||10|c|G
-13457||10|C|G
-13457||10|T|G</Grants>
-      <IntrospectionStateNumber>489</IntrospectionStateNumber>
+      <IntrospectionStateNumber>497</IntrospectionStateNumber>
       <ServerVersion>12.10</ServerVersion>
-      <StartupTime>1649634662</StartupTime>
+      <StartupTime>1649694269</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -1403,7 +1395,7 @@ true posixrules
 13158||10|C|G
 13158||-9223372036854775808|U|G
 13158||10|U|G</Grants>
-      <IntrospectionStateNumber>490</IntrospectionStateNumber>
+      <IntrospectionStateNumber>498</IntrospectionStateNumber>
       <ObjectId>16384</ObjectId>
       <OwnerName>admin</OwnerName>
     </database>
@@ -4622,10 +4614,29 @@ true posixrules
     <schema id="245" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>490</IntrospectionStateNumber>
+      <IntrospectionStateNumber>498</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>276</StateNumber>
       <OwnerName>admin</OwnerName>
     </schema>
+    <table id="246" parent="245" name="mans">
+      <ObjectId>16385</ObjectId>
+      <StateNumber>491</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>admin</OwnerName>
+    </table>
+    <table id="247" parent="245" name="mans1">
+      <ObjectId>16388</ObjectId>
+      <StateNumber>495</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>admin</OwnerName>
+    </table>
+    <column id="248" parent="247" name="field">
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>495</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
   </database-model>
 </dataSource>

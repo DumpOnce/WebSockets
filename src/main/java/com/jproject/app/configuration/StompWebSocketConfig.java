@@ -1,4 +1,4 @@
-package com.jproject.app.onfiguration;
+package com.jproject.app.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
@@ -16,7 +16,7 @@ public class StompWebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void configureMessageBroker(MessageBrokerRegistry registry) {
-        registry.enableSimpleBroker("/queue", "/topic");
+        registry.enableSimpleBroker( "/topic");
         registry.setApplicationDestinationPrefixes("/app");
     }
 }

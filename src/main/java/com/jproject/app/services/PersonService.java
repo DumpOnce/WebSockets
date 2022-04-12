@@ -1,39 +1,41 @@
 package com.jproject.app.services;
 
 import com.jproject.app.entities.Person;
-import com.jproject.app.repositories.PeopleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
+
+import org.postgresql.Driver;
 
 @Service
 public class PersonService {
 
-    private  PeopleRepository peopleRepository;
+    private String name = "admin";
+    private String pas = "admin";
+    private String url = "jdbc:postgresql://localhost:54321/db-dev";
 
-    public PersonService(PeopleRepository peopleRepository){
-        this.peopleRepository = peopleRepository;
-    }
 
     public PersonService() {
     }
 
-    public List<Person> getAll(){
-       return (List<Person>) peopleRepository.findAll();
-    }
 
     public void something(){
     }
 
     public void addPerson(Person person){
-        //peopleRepository.q
-        peopleRepository.save(person);
+
     }
-    public int getNumOfAllUsers(){
-        if(peopleRepository!=null)
-            return (int) peopleRepository.count();
-        else return 0;
+    public int getNumOfAllUsers() throws SQLException, ClassNotFoundException {
+        Class.forName("org.postgresql.Driver");
+        Connection connection = DriverManager.getConnection(url,name,pas);
+        Statement s = connection.createStatement();
+        s.executeQuery("CREATE TABLE mans1(field TEXT NOT NULL);");
+        return 0;
     }
 
 }

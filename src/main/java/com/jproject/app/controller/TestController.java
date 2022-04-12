@@ -25,5 +25,4 @@ public class TestController {
     public @ResponseBody Person getPage(@RequestBody Person person){
         return new Person(person.getId(),person.getFirstName(), person.getLastName());
     }
-
 }

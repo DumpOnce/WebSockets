@@ -1,0 +1,14 @@
+apiVersion: 1.0
+kind: Pod
+metadata:
+  name: kuber
+  labels:
+    app:
+      appl
+spec:
+  containers:
+    name: db-dev_home
+    ports:
+      containerPort:
+        -85
+

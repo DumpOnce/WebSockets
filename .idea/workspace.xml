@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e3a085-dcb6-48dd-8aef-0ccf2457db76" name="Changes" comment="" />
+    <list default="true" id="a3e3a085-dcb6-48dd-8aef-0ccf2457db76" name="Changes" comment="Added WS">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82d7032f-e643-4588-b629-fee984fc8bb9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82d7032f-e643-4588-b629-fee984fc8bb9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82d7032f-e643-4588-b629-fee984fc8bb9/storage_v2/_src_/database/db-dev.RpYfsA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82d7032f-e643-4588-b629-fee984fc8bb9/storage_v2/_src_/database/db-dev.RpYfsA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/controller/AllUSersShowingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/controller/LogicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/controller/LogicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/onfiguration/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/configuration/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/onfiguration/StompWebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/configuration/StompWebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/repositories/PeopleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/repositories/PeopleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/services/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/servlets/OwnServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/static.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/static.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +41,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -30,26 +61,18 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27celXoNVsqoTxx4DkDeRgW0qRD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="credentialsType com.jetbrains.nodejs.remote.NodeJSCreateRemoteSdkForm" value="Docker" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "show.run.dashboard.notification": "false"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -59,9 +82,22 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.static.js">
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled2/templates/login.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="static.js" type="NodeJSConfigurationType" temporary="true" path-to-node="docker://untitled_spring_app:latest/node" nameIsGenerated="true" path-to-js-file="static.js" working-dir="$PROJECT_DIR$/src/main/resources/static/css">
       <method v="2" />
+    </configuration>
+    <configuration name="App (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="minimum-image" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jproject.app.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="untitled2" />
@@ -72,6 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.test | #1" />
+        <item itemvalue="JavaScript Debug.login.html" />
         <item itemvalue="Node.js.static.js" />
       </list>
     </recent_temporary>
@@ -85,19 +123,40 @@
       <option name="presentableId" value="Default" />
       <updated>1649623953851</updated>
       <workItem from="1649623955149" duration="8176000" />
+      <workItem from="1649694298926" duration="11764000" />
+      <workItem from="1649706440581" duration="1691000" />
+      <workItem from="1649767312342" duration="3024000" />
+      <workItem from="1649770513324" duration="7442000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added WS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added WS" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main/resources/static/css/static.js</url>
-          <line>4</line>
-          <properties lambdaOrdinal="-1" />
+          <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
