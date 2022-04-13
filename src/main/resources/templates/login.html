@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <script src="./webjars/sockjs-client/1.5.1/sockjs.min.js"></script>
     <script src="/webjars/sockjs-client/1.5.1/sockjs.js"></script>
@@ -15,6 +15,10 @@
         <input id="enter" type="number">
         <button id = "but" type="button" ></button>
     </form>
+    <script th:inline="javascript">
+        var front = [[${number}]];
+    </script>
+    <h4 id = "txt"></h4>
 <script>
     var stompClient = null;
     var notificationCount = 0;
@@ -32,6 +36,8 @@
            console.log('Connected: ' + frame);
            stompClient.subscribe('/topic/sending',  message=> {
                console.log("fixed"+message)
+
+               document.getElementById("txt").innerHTML = front+message.innerHTML;
            });
            stompClient.send('/app/global',{},JSON.stringify("fergerg"))
 

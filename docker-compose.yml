@@ -12,23 +12,13 @@ services:
   db-dev_home:
     image: postgres:12
     restart: always
-    container_name: postgress
+    container_name: postgresss
     ports:
       - "54321:5432"
     environment:
       POSTGRES_PASSWORD: admin
       POSTGRES_USER: admin
       POSTGRES_DB: db-dev
-      PGDATA: /home/nikita/IdeaProjects/untitled2/data
+      PGDATA: /home/nikita/IdeaProjects/WebSockets
       POSTGRES_INITDB_DATA: "-A md5"
-  nginx-proxy:
-    image: nginx:1.17-alpine
-    container_name: nginx-serv
-    volumes:
-      - ./config.conf:/etc/nginx/conf.d/default.conf
-    links:
-      - spring_app
-    ports:
-      - "8088:8088"
-    restart: always
 

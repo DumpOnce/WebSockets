@@ -5,33 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3e3a085-dcb6-48dd-8aef-0ccf2457db76" name="Changes" comment="Added WS">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82d7032f-e643-4588-b629-fee984fc8bb9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82d7032f-e643-4588-b629-fee984fc8bb9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82d7032f-e643-4588-b629-fee984fc8bb9/storage_v2/_src_/database/db-dev.RpYfsA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82d7032f-e643-4588-b629-fee984fc8bb9/storage_v2/_src_/database/db-dev.RpYfsA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/App.Vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/Comp1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/Comp2.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/controller/AllUSersShowingController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/controller/LogicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/controller/LogicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/onfiguration/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/configuration/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/onfiguration/StompWebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/configuration/StompWebSocketConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/repositories/PeopleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/repositories/PeopleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jproject/app/services/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jproject/app/servlets/OwnServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/static.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/static.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +26,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -68,9 +55,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
-    "show.run.dashboard.notification": "false"
+    "show.run.dashboard.notification": "false",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,11 +70,12 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/static/css" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js/pages" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/css" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.App">
+  <component name="RunManager" selected="Spring Boot.App (1)">
     <configuration name="test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -115,6 +108,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a3e3a085-dcb6-48dd-8aef-0ccf2457db76" name="Changes" comment="" />
@@ -127,6 +123,7 @@
       <workItem from="1649706440581" duration="1691000" />
       <workItem from="1649767312342" duration="3024000" />
       <workItem from="1649770513324" duration="7442000" />
+      <workItem from="1649806705023" duration="15076000" />
     </task>
     <servers />
   </component>
